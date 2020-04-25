@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1116",
+      "name": "账户",
+      "font_class": "zhanghu",
+      "unicode": "f00bb",
+      "unicode_decimal": 983227
+    },
+    {
+      "icon_id": "1934678",
+      "name": "购买",
+      "font_class": "goumai",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "14095364",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e79d",
+      "unicode_decimal": 59293
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="PO.PersonInfoPO" table="personinfo" catalog="bank">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="increment"/>
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="50" not-null="true"/>
+        </property>
+         <property name="password" type="string">
+            <column name="password" length="50" not-null="true"/>
+        </property>
+        <property name="sex" type="string">
+            <column name="sex" length="50" not-null="true"/>
+        </property>
+        <property name="idnum" type="string">
+            <column name="idnum" length="50" not-null="true"/>
+        </property>
+        <property name="telephone" type="string">
+            <column name="telephone" length="50" not-null="true"/>
+        </property>
+        <property name="balance" type="string">
+            <column name="balance" length="50" not-null="true"/>
+        </property>
+         <property name="timedeposit" type="string">
+            <column name="timedeposit" length="50" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

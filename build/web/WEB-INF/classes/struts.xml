@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+
+<struts>
+    <include file="example.xml"/>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="login" class="loginRegisterAction.LoginAction">
+            <result name="success">/login/success.jsp</result>
+            <result name="input">/login/login.jsp</result>
+            <result name="error">/login/register.jsp</result>
+        </action>
+        <action name="register" class="loginRegisterAction.RegisterAction">
+            <result name="success">/login/login.jsp</result>
+            <result name="input">/login/register.jsp</result>
+            <result name="error">/login/register.jsp</result>
+        </action>
+        <action name="adminlogin" class="loginRegisterAction.AdminLoginAction">
+            <result name="success">/login/adminsuccess.jsp</result>
+            <result name="input">/login/adminlogin.jsp</result>
+            <result name="error">/login/adminlogin.jsp</result>
+        </action>
+        <action name="lookAdminMessageAction" class="adminAction.AdminLookMessageAction">
+            <result name="success">/admin/lookMessage.jsp</result>
+            <result name="input">/login/adminsuccess.jsp</result>
+            <result name="error">/login/adminsuccess.jsp</result>
+        </action>
+        <action name="lookMessageAction" class="clientAction.LookMessageAction">
+            <result name="success">/client/lookMessage.jsp</result>
+            <result name="input">/login/login.jsp</result>
+        </action>
+        <action name="deleteMessageAction" class="clientAction.DeleteMessageAction">
+            <result name="success">/login/deletesuccess.jsp</result>
+        </action>
+         <action name="lookAccountMessageAction" class="clientAction.LookMessageAction">
+            <result name="success">/client/lookAccountMessage.jsp</result>
+            <result name="input">/login/login.jsp</result>
+        </action>
+         <action name="buyMessageAction" class="clientAction.BuyMessageAction">
+            <result name="success" type="chain">lookAccountMessageAction</result>
+            <result name="input">/client/buyMessage.jsp</result>
+        </action>
+
+    </package>
+    </struts>
