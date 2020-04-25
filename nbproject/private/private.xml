@@ -15,14 +15,18 @@
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/css/layout_right.css</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/PO/AdminPO.java</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/img/a.png</file>
+            <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/font_fvgpcvhbwq6/iconfont.json</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/WEB-INF/web.xml</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/deleteMessage.jsp</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/PO/AdminPO.hbm.xml</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/loginRegisterDao/AdminLoginDao.java</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/loginRegisterAction/RegisterAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/font_fvgpcvhbwq6/demo_index.html</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/adminAction/AdminLookMessageAction.java</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/loginRegisterAction/LoginAction.java</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/img/IMG_2861.jpg</file>
+            <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/font_fvgpcvhbwq6/demo.css</file>
+            <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/font_fvgpcvhbwq6/iconfont.js</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/img/head_photo.png</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/img/head.jpg</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/clientDao/PersoninfoDao.java</file>
@@ -32,10 +36,12 @@
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/admin/lookMessage.jsp</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/css/layout_left.css</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/img/IMG.jpg</file>
+            <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/images/background1.jpg</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/login/login.jsp</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/login/index.jsp</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/lookAccountMessage.jsp</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/PO/PersonInfoPO.java</file>
+            <file>file:/D:/NetBeans/project/Bank_beta_2/web/client/font_fvgpcvhbwq6/iconfont.css</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/web/login/success.jsp</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/struts.xml</file>
             <file>file:/D:/NetBeans/project/Bank_beta_2/src/java/PO/AccountInfoPO.hbm.xml</file>

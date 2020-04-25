@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>村镇银行储蓄登录系统</title>
-    <style type="text/css">
+<!--    <style type="text/css">
         * {
             box-sizing: border-box;
         }
@@ -70,20 +70,16 @@
             color: #e2dfe4;
         }
 
-    </style>
+    </style>-->
 </head>
 <body>
 <div class="wrap">
     <div class="container">
         <h1 style="color: white; margin: 0; text-align: center">村镇银行储蓄系统</h1>
         <form action="login.action">
-            <label><input type="text" name="userName" placeholder="账户名"/></label>
-            <label><input type="password" name="password" placeholder="密码" /></label>
+            <label><input type="text" name="userName" placeholder="账户名"/></label><br>
+            <label><input type="password" name="password" placeholder="密码" /></label><br>
             <input type="submit" value="登录"/>
-            <p class="change_link" style="text-align: center">
-                <span class="text">没有帐户?</span>
-                <a href="register.jsp" > 点击注册</a>
-            </p>
             <p class="change_link" style="text-align: center">
                 <span class="text">管理员?</span>
                 <a href="adminlogin.jsp" > 点击登陆</a>
