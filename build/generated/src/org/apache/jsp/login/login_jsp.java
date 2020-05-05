@@ -1,0 +1,159 @@
+package org.apache.jsp.login;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("<head>\n");
+      out.write("    <meta charset=\"UTF-8\">\n");
+      out.write("    <title>村镇银行储蓄登录系统</title>\n");
+      out.write("<!--    <style type=\"text/css\">\n");
+      out.write("        * {\n");
+      out.write("            box-sizing: border-box;\n");
+      out.write("        }\n");
+      out.write("        body {\n");
+      out.write("            margin: 0;\n");
+      out.write("            padding: 0;\n");
+      out.write("            font: 16px/20px microsft yahei;\n");
+      out.write("        }\n");
+      out.write("        .wrap {\n");
+      out.write("            width: 100%;\n");
+      out.write("            height: 100%;\n");
+      out.write("            padding: 10% 0;\n");
+      out.write("            position: fixed;\n");
+      out.write("            opacity: 0.8;\n");
+      out.write("            background: linear-gradient(to bottom right,#000000, #656565);\n");
+      out.write("            background: -webkit-linear-gradient(to bottom right,#50a3a2,#53e3a6);\n");
+      out.write("        }\n");
+      out.write("        .container {\n");
+      out.write("            width: 60%;\n");
+      out.write("            margin: 0 auto;\n");
+      out.write("        }\n");
+      out.write("        .container h1 {\n");
+      out.write("            text-align: center;\n");
+      out.write("            color: #FFFFFF;\n");
+      out.write("            font-weight: 500;\n");
+      out.write("        }\n");
+      out.write("        .container input {\n");
+      out.write("            width: 320px;\n");
+      out.write("            display: block;\n");
+      out.write("            height: 36px;\n");
+      out.write("            border: 0;\n");
+      out.write("            outline: 0;\n");
+      out.write("            padding: 6px 10px;\n");
+      out.write("            line-height: 24px;\n");
+      out.write("            margin: 32px auto;\n");
+      out.write("            -webkit-transition: all 0s ease-in 0.1ms;\n");
+      out.write("            -moz-transition: all 0s ease-in 0.1ms;\n");
+      out.write("            transition: all 0s ease-in 0.1ms;\n");
+      out.write("        }\n");
+      out.write("        .container input[type=\"text\"] , .container input[type=\"password\"]  {\n");
+      out.write("            background-color: #FFFFFF;\n");
+      out.write("            font-size: 16px;\n");
+      out.write("            color: #50a3a2;\n");
+      out.write("        }\n");
+      out.write("        .container input[type='submit'] {\n");
+      out.write("            font-size: 16px;\n");
+      out.write("            letter-spacing: 2px;\n");
+      out.write("            color: #666666;\n");
+      out.write("            background-color: #FFFFFF;\n");
+      out.write("        }\n");
+      out.write("        .container input:focus {\n");
+      out.write("            width: 400px;\n");
+      out.write("        }\n");
+      out.write("        .container input[type='submit']:hover {\n");
+      out.write("            cursor: pointer;\n");
+      out.write("            width: 400px;\n");
+      out.write("        }\n");
+      out.write("        .to_login{\n");
+      out.write("            color: #a7c4c9;\n");
+      out.write("        }\n");
+      out.write("        .text{\n");
+      out.write("            color: #e2dfe4;\n");
+      out.write("        }\n");
+      out.write("\n");
+      out.write("    </style>-->\n");
+      out.write("</head>\n");
+      out.write("<body>\n");
+      out.write("<script language=\"javascript\">     \n");
+      out.write("         //防止页面后退\n");
+      out.write("        history.pushState(null, null, document.URL);\n");
+      out.write("        window.addEventListener('popstate', function () {\n");
+      out.write("            history.pushState(null, null, document.URL);\n");
+      out.write("        });    \n");
+      out.write("</script>\n");
+      out.write("<div style=\"text-align: center\" class=\"wrap\">\n");
+      out.write("    <div  class=\"container\">\n");
+      out.write("        <h1 <!--style=\"color: white; margin: 0; text-align: center\"-->村镇银行储蓄系统</h1>\n");
+      out.write("        <form action=\"login.action\">\n");
+      out.write("            <label><input type=\"text\" name=\"userName\" placeholder=\"银行卡号\"/></label><br>\n");
+      out.write("            <label><input type=\"password\" name=\"password\" placeholder=\"密码\" /></label><br>\n");
+      out.write("            <input type=\"submit\" value=\"登陆\"/>\n");
+      out.write("<!--            <p class=\"change_link\" style=\"text-align: center\">\n");
+      out.write("                <span class=\"text\">没有帐户?</span>\n");
+      out.write("                <a href=\"register.jsp\" > 点击注册</a>\n");
+      out.write("            </p>-->\n");
+      out.write("            <p class=\"change_link\" style=\"text-align: center\">\n");
+      out.write("                <span class=\"text\">管理员?</span>\n");
+      out.write("                <a href=\"adminlogin.jsp\" > 点击登陆</a>\n");
+      out.write("            </p>\n");
+      out.write("        </form>\n");
+      out.write("    </div>\n");
+      out.write("</div>\n");
+      out.write("</body>\n");
+      out.write("</html>\n");
+      out.write("\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

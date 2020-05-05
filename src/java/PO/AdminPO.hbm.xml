@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="PO.AdminPO" table="admin" catalog="bank">
+        <id name="adminid" type="int">
+            <column name="adminid"/>
+            <generator class="increment"/>
+        </id>
+        <property name="adminname" type="string">
+            <column name="adminname" length="50" not-null="true"/>
+        </property>
+         <property name="adminpwd" type="string">
+            <column name="adminpwd" length="50" not-null="true"/>
+        </property>
+        <property name="adminkey" type="string">
+            <column name="adminkey" length="50" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/client/lookMessage.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>52</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/struts.xml</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/client/buyMessage.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/client/lookMessage.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/clientDao/PersoninfoDao.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/hibernate.cfg.xml</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/clientAction/LookMessageAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/adminlogin.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/login.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/clientDao/AccountDao.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/clientAction/LookAccountMessageAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/loginRegisterAction/AdminLoginAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/client/deleteMessage.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/loginRegisterAction/LoginAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/deletesuccess.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/loginRegisterDao/AdminLoginDao.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/WEB-INF/web.xml</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/clientAction/BuyMessageAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/loginRegisterAction/RegisterAction.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/PO/PersonInfoPO.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/admin/lookMessage.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/loginRegisterDao/LoginRegisterInfo.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/register.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/PO/AdminPO.java</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/index.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/PO/AdminPO.hbm.xml</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/src/java/PO/AccountInfoPO.hbm.xml</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/success1.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/login/adminsuccess.jsp</file>
+            <file>file:/D:/NetBeans/project/Bank_1_2/Bank_1_2/web/client/lookAccountMessage.jsp</file>
+        </group>
+    </open-files>
+</project-private>
