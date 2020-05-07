@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class success1_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -93,45 +93,29 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            color: #a7c4c9;\n");
       out.write("        }\n");
       out.write("        .text{\n");
-      out.write("            color: blcak;\n");
-      out.write("\t\t\t\n");
+      out.write("            color: blcak;\t\t\n");
       out.write("        }\n");
-      out.write("\t\t.a_1{\n");
-      out.write("\t\t\tcursor: pointer;\n");
-      out.write("\t\t\tcolor: black;/*鼠标碰触颜色*/\n");
-      out.write("\t\t\tbackground-color: #959090;\n");
-      out.write("\t\t\t}\n");
-      out.write("\t\t\ta:active{\n");
-      out.write("\t\t\t\tcolor:rgba(0,28,147,1.00);/*点击时的颜色*/\n");
-      out.write("\t\t\t}\n");
-      out.write("\t\t\ta{\n");
-      out.write("\t\t\ttext-decoration: none;\n");
-      out.write("\t\t\tcolor: #040404;\t\n");
-      out.write("\t\t}\n");
+      out.write("        .a_1{\n");
+      out.write("            text-decoration:none;\n");
+      out.write("        }\n");
       out.write("\t\n");
       out.write("\t</style>\n");
       out.write("</head>\n");
-      out.write("<body background=\"images/bg.png\">\n");
-      out.write("<script language=\"javascript\">     \n");
-      out.write("         //防止页面后退\n");
-      out.write("        history.pushState(null, null, document.URL);\n");
-      out.write("        window.addEventListener('popstate', function () {\n");
-      out.write("            history.pushState(null, null, document.URL);\n");
-      out.write("        });    \n");
-      out.write("</script>\n");
+      out.write("\n");
+      out.write("    <body background=\"file:///C:/Users/22603/Desktop/bg.png\">\n");
+      out.write("        ");
+response.setCharacterEncoding("UTF-8");
+      out.write("\n");
       out.write("\t<div>\n");
       out.write("\t\t<img src=\"images/logo1.0.png\" style=\"width: 500px;height: 150px;margin-top: 0px\">\n");
       out.write("\t</div>\n");
-      out.write("    <div  class=\"container\">\n");
-      out.write("        <form class=\"form_1\" action=\"login.action\">\n");
-      out.write("            <input type=\"text\" name=\"userName\" placeholder=\"银行卡号\"/><br>\n");
-      out.write("            <input type=\"password\" name=\"password\" placeholder=\"密码\" /><br>\n");
-      out.write("            <input type=\"submit\" value=\"登陆\"/>\n");
-      out.write("            <p class=\"change_link\" style=\"text-align: center\"> <span class=\"text\">管理员?</span> \n");
-      out.write("                <a class=\"a_1\" href=\"adminlogin.jsp\"><strong> 点击登录</strong></a> </p>\n");
-      out.write("        </form>\n");
-      out.write("    </div>\n");
-      out.write("</body>\n");
+      out.write("        <div align=\"center\">\n");
+      out.write("            <br/><br/><br/><br/><br/>\n");
+      out.write("            <font color=\"black\" size=\"6\">登录成功，欢迎您</font>\n");
+      out.write("            <br/><br/><br/>\n");
+      out.write("            <a class=\"a_1\" href=\"lookMessageAction\"><font color=\"blue\" size=\"6\">点此进入服务</font></a>\n");
+      out.write("        <div>\n");
+      out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

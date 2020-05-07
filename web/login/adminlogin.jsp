@@ -1,74 +1,16 @@
-<%-- 
-    Document   : adminlogin.jsp
-    Created on : 2020-4-24, 9:22:06
-    Author     : 22603
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title><s:text name="基于SH的应用"></s:text></title>
-    </head>
-    <body bgcolor="#CCCCFF">
-        <s:form action="adminlogin" method="post">
-            <br><br><br><br><br><br>
-            <table border="1" align="center" bgcolor="#AABBCCDD">
-                <tr>
-                    <td>
-                        <s:textfield name="adminname" label="用户名字" size="16"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <s:password name="adminpwd" label="用户密码" size="16"/>
-                    </td>
-                </tr>
-                   <tr>
-                    <td>
-                        <s:password name="adminkey" label="密钥" size="16"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center">
-                        <s:submit value="登录"/>
-                </td>
-                </tr>
-            </table>
-        </s:form>
-    </body>
-</html>
-<html>-->
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>村镇银行储蓄登录系统</title>
-<!--    <style type="text/css">
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0;
-            padding: 0;
-            font: 16px/20px microsft yahei;
-        }
-        .wrap {
-            width: 100%;
-            height: 100%;
-            padding: 10% 0;
-            position: fixed;
-            opacity: 0.8;
-            background: linear-gradient(to bottom right,#000000, #656565);
-            background: -webkit-linear-gradient(to bottom right,#50a3a2,#53e3a6);
-        }
-        .container {
-            width: 60%;
+	<style type="text/css">
+		.container {
+			border:2px solid #FFFFF;
+			background: rgba(0,0,0,0.2);
+			border-radius:25px;
+            width: 40%;
             margin: 0 auto;
-        }
-        .container h1 {
-            text-align: center;
-            color: #FFFFFF;
-            font-weight: 500;
+			padding: 100px;
         }
         .container input {
             width: 320px;
@@ -78,13 +20,14 @@
             outline: 0;
             padding: 6px 10px;
             line-height: 24px;
-            margin: 32px auto;
+            margin: 20px auto;
             -webkit-transition: all 0s ease-in 0.1ms;
             -moz-transition: all 0s ease-in 0.1ms;
             transition: all 0s ease-in 0.1ms;
         }
         .container input[type="text"] , .container input[type="password"]  {
-            background-color: #FFFFFF;
+            background-color:#D8F6F9;
+
             font-size: 16px;
             color: #50a3a2;
         }
@@ -95,6 +38,7 @@
             background-color: #FFFFFF;
         }
         .container input:focus {
+			background: #ABC8FF;
             width: 400px;
         }
         .container input[type='submit']:hover {
@@ -105,29 +49,39 @@
             color: #a7c4c9;
         }
         .text{
-            color: #e2dfe4;
+            color: blcak;
+			
         }
-
-    </style>-->
+		.a_1{
+			cursor: pointer;
+			color: black;/*鼠标碰触颜色*/
+			background-color: #959090;
+			}
+			a:active{
+				color:rgba(0,28,147,1.00);/*点击时的颜色*/
+			}
+			a{
+			text-decoration: none;
+			color: #040404;	
+		}
+	
+	</style>
 </head>
-<body>
-<div class="wrap">
-    <div style="text-align: center" class="container">
-        <h1 <!--style="color: white; margin: 0; text-align: center"-->管理员</h1>
-        <form action="adminlogin.action" method="post">
+<body background="images/bg.png">
+	<div>
+		<img src="images/logo1.0.png" style="width: 500px;height: 150px;margin-top: 0px">
+	</div>
+    <div class="container">
+        <form class="form_1" action="adminlogin.action" method="post">
             <label><input type="text" name="adminname" placeholder="账户名"/></label><br>
             <label><input type="password" name="adminpwd" placeholder="密码" /></label><br>
             <label><input type="password" name="adminkey" placeholder="密钥"/></label><br>
             <input type="submit" value="登录"/>
              <p class="change_link" style="text-align: center">
                 <span class="text">不是管理员？</span>
-                <a href="login.jsp" class="to_login">请返回</a>
+                <a href="login.jsp" class="a_1"><b>请返回</b></a>
             </p>
-            <%
-//            session.setAttribute("flag",  "username"); 
-            %>
         </form>
     </div>
-</div>
 </body>
 </html>
